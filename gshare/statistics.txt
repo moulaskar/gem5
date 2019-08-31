@@ -1,0 +1,34 @@
+FFT_Conf1
+
+    system.cpu.ipc_total                         1.742524
+    system.cpu.branchPred.condPredicted           2534958
+    system.cpu.branchPred.condIncorrect             39786
+
+    % accuracy = (2534958 - 39786)/2534958 = 98.4%
+
+
+FFT_Conf2
+
+    system.cpu.ipc_total                         1.742524
+    system.cpu.branchPred.condPredicted           2535244
+    system.cpu.branchPred.condIncorrect             39906
+
+    % accuracy = (2535244 - 39906)/2535244 = 98.42%
+
+qsort_Conf1
+
+    system.cpu.ipc_total                         1.641545
+    system.cpu.branchPred.condPredicted           4121389
+    system.cpu.branchPred.condIncorrect            134678 
+
+    % accuracy = (4121389 - 134678)/4121389 = 96.73%
+
+qsort_Conf2
+
+    system.cpu.ipc_total                         1.650371
+    system.cpu.branchPred.condPredicted           4085634
+    system.cpu.branchPred.condIncorrect            120350
+
+    % accuracy = (4085634 - 120350)/4085634 = 97.05%
+
+
